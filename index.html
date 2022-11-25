@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ThunderChat</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Unica+One%7CWork+Sans:300,600" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body data-spy="scroll" data-target="#main-nav" data-offset="60">
+  <!-- Fixed Navbar -->
+  <nav id="main-nav" class="navbar navbar-default ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Menu Toggle -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+        <a class="navbar-brand scroll" href="#top"><img class="pull-left logo" src="https://thunderchat.ml/assets/icon.jpg" alt="TD Logo"><span>THUNDERCHAT</span></a>
+      </div>
+      <!-- Collapsible Menu -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a class="scroll" href="#top">Home <span class="sr-only">(current)</span></a></li>
+
+          <li><a class="scroll" href="https://github.com/apurboislam/thunder-chat">Download</a></li>
+          
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- Jumbotron -->
+  <header id="top" class="jumbotron">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <img class="img-responsive center-block logo" src="https://thunderchat.ml/assets/icon.jpg" alt="ThunderChatLogo">
+        </div>
+        <div class="col-xs-12">
+          <h1 class="title">ThunderChat.</h1>
+          <p>This is a secured and private chatting app!</p>
+          <p>Developed By Bitsoul!</p>
+          <a class="btn td-btn outline green scroll mt-30" href="https://thunderchat.ml/version/latest.apk">DOWNLOAD</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    <footer class="row text-left bg-honeycomb">
+
+      <div id="follow-me" class="col-xs-12 col-sm-5 col-sm-offset-1 mb-30">
+        <h3>Follow me!</h3>
+
+        <a class="social" href="https://github.com/apurboislam/" target="_blank" title="Github">
+          <img src="https://github.com/tiffanyadu/portfolio/blob/master/assets/icons/social/Github-black.png?raw=true" alt="Github Icon">
+        </a>
+       
+      </div>
+      <div class="col-xs-12 text-center">
+        <hr class="dashed">
+        <h4>&ndash; Thanks for visiting! &ndash;</h4>
+        <small class="gray">Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Bitsoul &mdash; All Rights Reserved &mdash; Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></small>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactTitle">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-pink">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title" id="contactTitle">Contact Me</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <form class="mb-15">
+            <div class="form-group">
+              <label class="sr-only" for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="subject">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="message">Message</label>
+              <textarea class="form-control" id="message" rows="6" placeholder="Your message here..." required></textarea>
+            </div>
+            <small>*All fields are required</small>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> I'm a robot!
+              </label>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <button type="button" class="btn td-btn outline small white" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn td-btn outline small white">Send Message</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</body>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
